@@ -10,10 +10,10 @@ $(function () {
 
     $(".saveBtn").click(function (event) {
         var parent = $(this).parent().attr("id");
-        var setHour = parseInt(parent.slice[5]);
+        var setHour = parseInt(parent.slice(5));
         var currentDay = dayjs().format('YYYY-MM-DD ' + setHour);
         var currentHour = dayjs(currentDay);
-        var today = dayjs().format('YYY-MM-DD H');
+        var today = dayjs().format('YYYY-MM-DD H');
         var pastTime = currentHour.diff(today, 'hour');
         var work = document.querySelector('#' + parent + ' textarea').value;
         localStorage.setItem(parent, work);
@@ -24,7 +24,7 @@ $(function () {
 
     $('.time-block').each(function () {
         var parent = $(this).attr("id");
-        var setHour = parseInt(parent.slice[5]);
+        var setHour = parseInt(parent.slice(5));
         var currentDay = dayjs().format('YYYY-MM-DD ' + setHour);
         var currentHour = dayjs(currentDay);
         var today = dayjs().format('YYYY-MM-DD H');
@@ -48,7 +48,7 @@ $(function () {
 
     $('.time-block').each(function () {
         var parent = $(this).attr("id");
-        var setHour = parseInt(parent.slice[5]);
+        var setHour = parseInt(parent.slice(5));
         var currentDay = dayjs().format('YYYY-MM-DD ' + setHour);
         var currentHour = dayjs(currentDay);
         var today = dayjs().format('YYYY-MM-DD H');
