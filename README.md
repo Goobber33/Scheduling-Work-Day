@@ -14,11 +14,11 @@ Install the index.html, style.css, and jjscript.js and run it in your own IDE.
 
  A screenshot of some sections of code from my JavaScript for this project. 
 
-![JS](Develop/images/JavaScript.jpgimages/JavaScript.jpg)
+![JS](Develop/images/JavaScript.jpg)
 
 Screenshots of the website. The website should resemble this screenshot when deployed.
 
-![first](Develop/images/first.jpgimages/first.jpg)
+![first](Develop/images/first.jpg)
 
 
 # Credits
