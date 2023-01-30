@@ -23,4 +23,4 @@ Screenshots of the website. The website should resemble this screenshot when dep
 
 # Credits
 
-This project was built from using the code from the Github Repo cridpy-octo-meme by Georgeyoo and Kyle Parks
+This project was built from using the code from the Github Repo cridpy-octo-meme by Georgeyoo and Kyle Parks.
